@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.6" class="java.beans.XMLDecoder">
+ <object class="TreeNode" id="TreeNode0">
+  <void property="key">
+   <int>19</int>
+  </void>
+  <void property="nodes">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="TreeNode" id="TreeNode1">
+      <void property="dad">
+       <object idref="TreeNode0"/>
+      </void>
+      <void property="key">
+       <int>89</int>
+      </void>
+      <void property="nodes">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="TreeNode">
+          <void property="dad">
+           <object idref="TreeNode1"/>
+          </void>
+          <void property="key">
+           <int>25</int>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="TreeNode">
+          <void property="dad">
+           <object idref="TreeNode1"/>
+          </void>
+          <void property="key">
+           <int>19</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="TreeNode" id="TreeNode2">
+      <void property="dad">
+       <object idref="TreeNode0"/>
+      </void>
+      <void property="key">
+       <int>24</int>
+      </void>
+      <void property="nodes">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="TreeNode">
+          <void property="dad">
+           <object idref="TreeNode2"/>
+          </void>
+          <void property="key">
+           <int>17</int>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="TreeNode">
+          <void property="dad">
+           <object idref="TreeNode2"/>
+          </void>
+          <void property="key">
+           <int>63</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="TreeNode" id="TreeNode3">
+      <void property="dad">
+       <object idref="TreeNode0"/>
+      </void>
+      <void property="key">
+       <int>11</int>
+      </void>
+      <void property="nodes">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="TreeNode">
+          <void property="dad">
+           <object idref="TreeNode3"/>
+          </void>
+          <void property="key">
+           <int>74</int>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="TreeNode">
+          <void property="dad">
+           <object idref="TreeNode3"/>
+          </void>
+          <void property="key">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
