@@ -7,8 +7,8 @@ public class Main {
 
 
         //vista para arbol n ario
-//         TreeView gui = new TreeView();
-//         gui.getFrame().setVisible(true);
+         TreeView gui = new TreeView();
+         gui.getFrame().setVisible(true);
 
          //ARBOL PERMITE UN NODE
         Tree tree1=new Tree(5,null);
